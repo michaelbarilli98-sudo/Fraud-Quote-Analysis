@@ -1,0 +1,10 @@
+customer_id,quote_id,quote_time,session_id,age,occupation,mileage,postcode,premium,prev_occupation,prev_mileage,prev_premium,occupation_changed,mileage_changed,premium_drop_after_occupation_change,premium_drop_after_mileage_change,quotes_in_session,session_span_minutes,high_frequency_session,risk_score,risk_band
+C001,Q001,2024-06-01 09:01:10,S1,29,Teacher,12000,AB12,620,,,,,True,False,False,3,4.033333333333333,False,2,Low
+C001,Q002,2024-06-01 09:03:40,S1,29,Teacher,10000,AB12,590,Teacher,12000.0,620.0,False,True,False,True,3,4.033333333333333,False,5,Medium
+C001,Q003,2024-06-01 09:05:12,S1,29,Clerk,10000,AB12,540,Teacher,10000.0,590.0,True,False,True,False,3,4.033333333333333,False,5,Medium
+C001,Q004,2024-06-01 19:22:10,S2,29,Clerk,10000,AB12,535,,,,,True,False,False,1,0.0,False,2,Low
+C002,Q005,2024-06-02 10:11:01,S3,45,Engineer,8000,XY99,410,,,,,True,False,False,2,34.53333333333333,False,2,Low
+C002,Q006,2024-06-02 10:45:33,S3,45,Engineer,8000,XY99,408,Engineer,8000.0,410.0,False,False,False,False,2,34.53333333333333,False,0,Low
+C003,Q007,2024-06-03 14:02:55,S4,22,Student,15000,ZZ10,1200,,,,,True,False,False,3,3.5833333333333335,False,2,Low
+C003,Q008,2024-06-03 14:04:10,S4,22,Student,15000,ZZ10,1198,Student,15000.0,1200.0,False,False,False,False,3,3.5833333333333335,False,0,Low
+C003,Q009,2024-06-03 14:06:30,S4,22,Unemployed,15000,ZZ10,980,Student,15000.0,1198.0,True,False,True,False,3,3.5833333333333335,False,5,Medium
