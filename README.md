@@ -1,6 +1,6 @@
 # Fraud-Quote-Analysis
 
-A personal Python project that analyses data to identify behavioural patterns and potential fraud indicators.
+A personal Python project that analyses insurance quotation data to identify behavioural patterns and potential fraud indicators.
 
 The tool uses Pandas to organise quote activity, compare changes made during customer sessions and flag records that may require further review.
 
